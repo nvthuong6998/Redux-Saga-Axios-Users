@@ -11,7 +11,7 @@ function* getUser(){
     if(reponse.status == 200){
         console.log(reponse.status ,'cc')
         console.log(reponse.headers, 'cl')
-        const user = reponse.headers;
+        const user = reponse.data;
         return user;
         // const user = reponse.user;
         // console.log(user , 'user')
